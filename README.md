@@ -16,6 +16,7 @@ update every ---- = update speed of generation
 Random = random pattern
 Clear = clear pattern
 OceanWaves =  oceanwaves pattern
+change color ----NOTE:under construction
 
 Generation counter at top
 
