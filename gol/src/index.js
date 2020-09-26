@@ -3,35 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
- // beee = () => {
-
-  //   for (let y = 0; y < this.rows; y++) {
-  //     for (let x = 0; x < this.cols; x++) {
-  //       this.board[y][x] = Math.()<= 0.5
-        
-  //       // [
-  //       //   [0, 0, 0, 0, 0, 0, 0, 0],
-  //       //   [0, 0, 0, 0, 1, 0, 0, 0],
-  //       //   [0, 0, 1, 0, 1, 0, 0, 0],
-  //       //   [0, 1, 0, 0, 0, 0, 1, 0],
-  //       //   [0, 1, 1, 1, 1, 1, 1, 0],
-  //       //   [0, 0, 0, 0, 0, 0, 0, 0],
-  //       //   [0, 0, 0, 1, 1, 0, 0, 0],
-  //       //   [0, 0, 1, 0, 0, 1, 0, 0],
-  //       //   [0, 0, 0, 1, 1, 0, 0, 0],
-  //       //   [0, 0, 0, 0, 0, 0, 0, 0]
-
-  //       // ]
-
-        
-      
-  //     }
-  //   }
-
-  //   this.setState({ cells: this.makeCells() });
-  // };
-
-
 
 
 
@@ -250,51 +221,21 @@ class Cycle extends React.Component {
   };
 
 
-  //test beeeee
-  // beee = () => {
-  //   for (let y = 0; y < this.rows; y++) {
-  //     for (let x = 0; x < this.cols; x++) {
-  //       this.board[y][x] = Math.sqrt() >= 0.5;
-  //     }
-  //   }
+  OceanWaves = () => {
 
-  //   this.setState({ cells: this.makeCells() });
-  // };
+    for (let y = 0; y < this.rows; y++) {
+      for (let x = 0; x < this.cols; x++) {
+ 
 
-  // beeonyohat = () => {
-  //   this.setState({
-  //     board: beee(),
-  //     generation: 0
-  //   })
-  //   this.setState({ cells: this.makeCells() });
-  // }
-  // beee = () => {
-
-  //   for (let y = 0; y < this.rows; y++) {
-  //     for (let x = 0; x < this.cols; x++) {
-  //       this.board[y][x] = Math.()<= 0.5
-        
-  //       // [
-  //       //   [0, 0, 0, 0, 0, 0, 0, 0],
-  //       //   [0, 0, 0, 0, 1, 0, 0, 0],
-  //       //   [0, 0, 1, 0, 1, 0, 0, 0],
-  //       //   [0, 1, 0, 0, 0, 0, 1, 0],
-  //       //   [0, 1, 1, 1, 1, 1, 1, 0],
-  //       //   [0, 0, 0, 0, 0, 0, 0, 0],
-  //       //   [0, 0, 0, 1, 1, 0, 0, 0],
-  //       //   [0, 0, 1, 0, 0, 1, 0, 0],
-  //       //   [0, 0, 0, 1, 1, 0, 0, 0],
-  //       //   [0, 0, 0, 0, 0, 0, 0, 0]
-
-  //       // ]
+        this.board[y][x] = (([x]*[y])/[x])
 
         
       
-  //     }
-  //   }
+      }
+    }
 
-  //   this.setState({ cells: this.makeCells() });
-  // };
+    this.setState({ cells: this.makeCells() });
+  };
   
 
 
@@ -343,7 +284,7 @@ class Cycle extends React.Component {
           <button className="button" onClick={this.clear}>
             Clear
           </button>
-          <button type='button' onClick={this.beee}>BEEEE</button>
+          <button type='button' onClick={this.OceanWaves}>OceanWaves</button>
       
           <div className={this.state.color}>
         
