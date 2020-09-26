@@ -4,13 +4,18 @@
 Welcome to life game 
 
 ###
+------------------
+###
 open project
 ###
 npm i
 ###
 npm start
+###
+------------------
 
-
+###
+------------------
 ###
 Button explanations
 ###
@@ -25,7 +30,13 @@ OceanWaves =  oceanwaves pattern
 change color ----NOTE:under construction
 ###
 Generation counter at top
+###
+------------------
+###
 
+###
+###
+------------------
 ###
 Rules of the game
 ###
@@ -37,7 +48,13 @@ Living cells with more than three live neighbours dies of crowding
 ###
 A dead cell with exactly three live neighbours becomes a living cell
 ###
+###
+------------------
+###
  you like the project 
+ ###
+------------------
+###
 
 
 
