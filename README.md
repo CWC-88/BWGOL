@@ -29,7 +29,7 @@ Generation counter at top
 ###
 Rules of the game
 ###
-Living cells with fewer than two living neighbours will dies of lonliness
+Living cells with fewer than two living neighbours dies of lonliness
 ###
 Living cells with two or three living neighbours advances advances a generation
 ###
